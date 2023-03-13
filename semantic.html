@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #mainHeader {
+            height: 10vh;
+            background-color: red;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        aside {
+            height: 80vh;
+            background-color: aqua;
+            text-align: center;
+            width: 30vw;
+            float: left;
+        }
+
+        .subheader {
+            height: 10vh;
+            background-color: bisque;
+            text-align: center;
+        }
+
+        article {
+            height: 60vh;
+            background-color: blueviolet;
+            text-align: center;
+        }
+
+        figure {
+            height: 30vh;
+            width: 10vw
+            ;
+            background-color: cadetblue;
+            text-align: center;
+            float: right;
+        }
+
+
+        #subFooter {
+            height: 10vh;
+            background-color: brown;
+            text-align: center;
+        }
+
+        #mainFooter {
+            height: 10vh;
+            background-color: chartreuse;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header id="mainHeader">
+        <p>header+nav</p>
+    </header>
+    <!-- header ends -->
+
+    <!-- section starts -->
+    <section>
+        <aside>Aside</aside>
+        <header class="subheader">Sub header</header>
+        <article>Article
+            <figure>Figure</figure>
+        </article>
+        <footer id="subFooter">Sub Footer</footer>
+    </section>
+    <!-- section ends -->
+
+    <!-- footer starts -->
+    <footer id="mainFooter">Main Footer</footer>
+    <!-- footer ends -->
+
+</body>
+
+</html>
